@@ -19,7 +19,7 @@
                         <a class="nav-link" href="{{route('home')}}">Link</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{route('comics')}}">Comics</a>
+                        <a class="nav-link" href="/comics">Comics</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Link</a>

@@ -17,9 +17,11 @@ Route::get('/', function () {
     return view('home');
 })->name('home');
 
-
 Route::get('/comics', function () {
-    //dd(config('comics'));
     $comics = config('comics');
     return view('comics', compact('comics'));
-})->name('comics');
+});
+Route::get('/comics/{index}', function ($index) {
+    $comics = config('comics');
+    return view('comic', compact('comics', 'index'));
+});
