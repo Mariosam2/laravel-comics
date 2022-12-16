@@ -1,0 +1,32 @@
+@use './variables' as *;
+
+footer {
+    .footer-top {
+        background-image: url(../images/footer-bg.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+
+    .dc-img-footer {
+        left: 50%;
+        background-image: url(../images/dc-logo-bg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .footer-bottom {
+        background-color: #2d2d2d;
+
+        .signup {
+            border: 2px solid;
+            border-radius: 0;
+
+            &:hover {
+                background-color: #1e1e1e;
+            }
+        }
+    }
+}

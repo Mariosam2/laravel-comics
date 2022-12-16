@@ -18,6 +18,7 @@
 
 <body>
     @include('partials.header')
+    @include('partials.jumbotron')
     @yield('main-content')
     @include('partials.footer')
 </body>
