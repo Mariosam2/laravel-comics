@@ -1,4 +1,33 @@
+@use './partials/variables' as *;
+
 @use './partials/header';
 @use './partials/jumbo';
 @use './partials/footer';
 @import '~bootstrap/scss/bootstrap';
+
+// Common rules
+.bg_dark-gray {
+    background-color: $dark-gray;
+
+}
+
+main {
+    color: white;
+    padding: 1rem 0;
+
+    .comic {
+        img {
+            aspect-ratio: 1/1;
+            width: 100%;
+            object-fit: cover;
+            object-position: center top;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    }
+
+
+}
