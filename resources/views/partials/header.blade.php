@@ -16,7 +16,7 @@
             <div class="collapse navbar-collapse" id="collapsibleNavId">
                 <ul class="navbar-nav flex-grow-1 justify-content-around mt-2 mt-lg-0 ms_nav px-3">
                     <li class="nav-item">
-                        <a class="nav-link" href="{{route('home')}}">Link</a>
+                        <a class="nav-link" href="/">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/comics">Comics</a>
