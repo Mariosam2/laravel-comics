@@ -16,34 +16,34 @@
             <div class="collapse navbar-collapse" id="collapsibleNavId">
                 <ul class="navbar-nav flex-grow-1 justify-content-around mt-2 mt-lg-0 ms_nav px-3">
                     <li class="nav-item">
-                        <a class="nav-link" href="#" aria-current="page">Home <span class="visually-hidden">(current)</span></a>
+                        <a class="nav-link" href="{{route('home')}}">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{route('comics')}}">Comics</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Link</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" aria-current="page">Home <span class="visually-hidden">(current)</span></a>
+                        <a class="nav-link" href="#">Link</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Link</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" aria-current="page">Home <span class="visually-hidden">(current)</span></a>
+                        <a class="nav-link" href="#">Link</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Link</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" aria-current="page">Home <span class="visually-hidden">(current)</span></a>
+                        <a class="nav-link" href="#">Link</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Link</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" aria-current="page">Home <span class="visually-hidden">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" aria-current="page">Home <span class="visually-hidden">(current)</span></a>
+                        <a class="nav-link" href="#">Link</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#" aria-current="page">Shop<i class="fa-solid fa-chevron-down ps-2"></i><span class="visually-hidden">(current)</span></a>
