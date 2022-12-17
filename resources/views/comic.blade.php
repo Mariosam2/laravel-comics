@@ -32,16 +32,16 @@
                     <div class="col-7">
                         <h4>Talent</h4>
                         <ul class="list-unstyled list-group">
-                            <li class="list-group-item">
-                                <span class="fw-semibold">Art by:</span>
+                            <li class="list-group-item ms_detail-item">
+                                <span class="fw-semibold detail-title">Art by:</span>
                                 <div class="artists">@foreach($comic['artists'] as $artist)
                                     {{$artist. ','}}
                                     @endforeach
                                 </div>
 
                             </li>
-                            <li class="list-group-item">
-                                <span class="fw-semibold">Written by:</span>
+                            <li class="list-group-item ms_detail-item">
+                                <span class="fw-semibold detail-title">Written by:</span>
                                 <div class="writers">@foreach($comic['writers'] as $writer)
                                     {{$writer . ','}}
                                     @endforeach
@@ -53,17 +53,17 @@
                     <div class="col-5">
                         <h4>Specs</h4>
                         <ul class="list-unstyled list-group">
-                            <li class="list-group-item d-flex">
-                                <span class="fw-semibold flex-grow-1">Series:</span>
-                                <span class="series w-50">{{$comic['series']}}</span>
+                            <li class="list-group-item ms_detail-item">
+                                <span class="fw-semibold detail-title">Series:</span>
+                                <span class="series">{{$comic['series']}}</span>
                             </li>
-                            <li class="list-group-item d-flex">
-                                <span class="fw-semibold flex-grow-1">U.S. Price:</span>
-                                <span class="series w-50">{{$comic['price']}}</span>
+                            <li class="list-group-item ms_detail-item">
+                                <span class="fw-semibold detail-title">U.S. Price:</span>
+                                <span class="series">{{$comic['price']}}</span>
                             </li>
-                            <li class="list-group-item d-flex">
-                                <span class="fw-semibold flex-grow-1">On Sale Date:</span>
-                                <span class="series w-50">{{$comic['sale_date']}}</span>
+                            <li class="list-group-item ms_detail-item">
+                                <span class="fw-semibold detail-title">On Sale Date:</span>
+                                <span class="series">{{$comic['sale_date']}}</span>
                             </li>
                         </ul>
                     </div>
